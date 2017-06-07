@@ -1,0 +1,7 @@
+---
+applications:
+- name: service-registry
+  memory: 1G
+  path: service-registry.jar
+  instances: 1
+  buildpack: java_buildpack

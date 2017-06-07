@@ -16,7 +16,7 @@ version_bucket_region_name: us-west-2 # don't change
 version_key: mwebb-service-registry-version # set to '<first_initial><lastname>-company-version'.  ex: sgreenberg-company-version
 initial_version: 0.0.1
 
-artifact_regexp: mwebb-service-registry(.*).jar # set to '<first_initial><lastname>-company-(.*).jar'.  ex: sgreenberg-company-(.*).jar
+artifact_regexp: mwebb-service-registry-(.*).jar # set to '<first_initial><lastname>-company-(.*).jar'.  ex: sgreenberg-company-(.*).jar
 artifact_bucket: rscale-training-bucket # don't change
 artifact_bucket_region_name: us-west-2 # don't change
 
